@@ -4,13 +4,13 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #e83bff;
 }
 
 .container {
     text-align: center;
 }
-
+        
 #gifContainerImg {
     width: 60%;
     height: 60%;
