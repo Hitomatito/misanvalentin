@@ -6,6 +6,7 @@ document.getElementById('gifContainer').style.display = 'block';
 
 document.getElementById('siBtn').addEventListener('click', function() {
     // Ocultar el gif triste y mostrar el gif feliz
+    var audio = document.getElementById('cancion');
     document.getElementById('sadGifContainer').style.display = 'none';
     document.getElementById('sadGifContainer1').style.display = 'none';
     document.getElementById('sadGifContainer2').style.display = 'none';
@@ -36,6 +37,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
         document.getElementById('happyGifContainer3').style.display = 'none';
         document.getElementById('happyGifContainer4').style.display = 'block';
     }, 3000);
+    audio.play();
   
 });
 

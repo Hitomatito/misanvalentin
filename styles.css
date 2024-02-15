@@ -6,7 +6,11 @@ body {
     margin: 0;
     background-color: white;
 }
-
+.bg-image {
+    background-image: url('./san\ lucas.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: center; /* Centra la imagen de fondo */
+}
 .container {
     text-align: center;
 }
@@ -66,7 +70,9 @@ button {
     text-shadow: 2px 2px 4px #000; /* Borde simulado */
     animation: pulse 0.5s infinite alternate; /* Animación de palpitación más rápida */
 }
-
+h1{
+    color: white;
+}
 @keyframes pulse {
     from {
         transform: scale(1);
